@@ -3,3 +3,38 @@
 
 This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
+
+<!-- BEGIN:project-rules -->
+# Foundation Project Rules
+
+## Stack
+- Next.js (App Router)
+- TypeScript (strict — never use JavaScript)
+- Tailwind CSS (all styling — no inline styles or CSS modules)
+- shadcn/ui (Radix + Nova preset)
+- Neon Postgres (when needed)
+- Vercel (deployment)
+
+## Code Rules
+- Always use TypeScript, never JavaScript
+- Use Tailwind CSS for all styling
+- Use shadcn/ui components before building custom ones
+- Keep components small and composable
+- Use server components by default, client components only when needed
+- Write clean, lightweight code — no unnecessary dependencies
+- All API routes go in src/app/api/
+
+## Folder Structure
+- src/components/ui — shadcn/ui components
+- src/components/layout — Layout components (header, footer, sidebar)
+- src/components/shared — Reusable components across pages
+- src/lib — Utilities, helpers, API clients
+- src/hooks — Custom React hooks
+- src/types — TypeScript type definitions
+- src/styles — Design tokens, global styles
+
+## Design System
+- Use design tokens from src/styles/design-tokens.ts
+- Extend Tailwind config from these tokens
+- Maintain consistent spacing, colors, and typography across all components
+<!-- END:project-rules -->
