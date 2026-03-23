@@ -186,6 +186,11 @@
       "sourceType": "github",
       "computedHash": "246e65cd72a7e360987d94e6c61564ce6d71c6361d1784d529d70e4cbbe8522d"
     },
+    "self-improvement": {
+      "source": "peterskoett/self-improving-agent",
+      "sourceType": "github",
+      "computedHash": "941bf1f3d2862e2b5a0f7dfa8f86103b84922df15e155eb86bcadd7d6bdeacfc"
+    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",

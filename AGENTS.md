@@ -38,3 +38,13 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Extend Tailwind config from these tokens
 - Maintain consistent spacing, colors, and typography across all components
 <!-- END:project-rules -->
+
+<!-- BEGIN:self-improvement-rules -->
+# Self-Improvement
+- At the start of each session, review .learnings/ files for relevant context
+- After solving non-obvious issues or when I correct you, log the learning to .learnings/LEARNINGS.md
+- Log errors and failed commands to .learnings/ERRORS.md
+- Log feature requests or missing capabilities to .learnings/FEATURE_REQUESTS.md
+- Before major tasks, review recent learnings to avoid repeating past mistakes
+- Periodically consolidate learnings — merge duplicates, remove outdated entries, promote broadly applicable ones to AGENTS.md
+<!-- END:self-improvement-rules -->
