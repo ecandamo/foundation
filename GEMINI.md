@@ -31,6 +31,16 @@
 - Extend Tailwind config from these tokens
 - Maintain consistent spacing, colors, and typography across all components
 
+## Design Philosophy
+- Target aesthetic: Linear.app level of polish
+- Typography: strong hierarchy, dramatic size contrast between headings and body
+- Color: mostly neutral, accent used sparingly and intentionally
+- Density: data-rich but never cluttered
+- Whitespace: used deliberately, not as filler
+- Every component should feel intentional and premium, never default
+- Avoid generic AI-generated aesthetics at all costs
+- Reference apps: Linear.app, Stripe Dashboard, Vercel Dashboard
+
 ## Self-Improvement
 - At the start of each session, review .learnings/ files for relevant context
 - After solving non-obvious issues or when I correct you, log the learning to .learnings/LEARNINGS.md

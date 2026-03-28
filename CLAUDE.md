@@ -23,6 +23,16 @@
 - src/types — TypeScript types
 - src/styles — Design tokens
 
+## Design Philosophy
+- Target aesthetic: Linear.app level of polish
+- Typography: strong hierarchy, dramatic size contrast between headings and body
+- Color: mostly neutral, accent used sparingly and intentionally
+- Density: data-rich but never cluttered
+- Whitespace: used deliberately, not as filler
+- Every component should feel intentional and premium, never default
+- Avoid generic AI-generated aesthetics at all costs
+- Reference apps: Linear.app, Stripe Dashboard, Vercel Dashboard
+
 ## Self-Improvement
 - Review .learnings/ at session start
 - Log corrections and errors to .learnings/
