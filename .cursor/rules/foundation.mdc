@@ -16,8 +16,8 @@ alwaysApply: true
 ## Code Rules
 - Always use TypeScript
 - Use Tailwind CSS for all styling
-- Prefer shadcn/ui components before building custom ones
-- Keep components small and composable
+- Use shadcn/ui as a base but always customize styling to match Design Philosophy — never use default shadcn appearance as-is
+- Keep components small and composable — but never sacrifice visual polish for simplicity
 - Use server components by default; use client components only when needed
 - Write clean, lightweight code with no unnecessary dependencies
 - Put all API routes in `src/app/api/`

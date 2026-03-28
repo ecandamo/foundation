@@ -9,7 +9,7 @@
 ## Rules
 - TypeScript only, never JavaScript
 - Tailwind for all styling, no CSS modules or inline styles
-- shadcn/ui components before custom ones
+- Use shadcn/ui as a base but always customize styling to match Design Philosophy — never use default shadcn appearance as-is
 - Server components by default, client only when needed
 - Clean, lightweight code — no unnecessary dependencies
 - Design tokens in src/styles/design-tokens.ts
