@@ -22,7 +22,7 @@
 - src/lib — Utilities, helpers
 - src/hooks — Custom hooks
 - src/types — TypeScript types
-- src/styles — Design tokens
+- src/styles — Reference tokens and shared style utilities only (live theme is in src/app/globals.css)
 
 ## Design Philosophy
 - Target aesthetic: Linear.app level of polish

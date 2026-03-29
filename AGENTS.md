@@ -31,7 +31,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - src/lib — Utilities, helpers, API clients
 - src/hooks — Custom React hooks
 - src/types — TypeScript type definitions
-- src/styles — Design tokens, global styles
+- src/styles — Reference tokens and shared style utilities only (live theme is in src/app/globals.css)
 
 ## Design System
 - Live design system lives in src/app/globals.css — edit there for any style changes
