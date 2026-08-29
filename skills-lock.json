@@ -103,6 +103,12 @@
       "skillPath": "self-improving-agent/SKILL.md",
       "computedHash": "df2764eab0381868b309f980167fcfaffad38097040bc966ad9725d49600bf8e"
     },
+    "shadcn": {
+      "source": "shadcn-ui/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "deba6c5152d9835892fa7dffeb1fedbb689ddac7e59e14e57ec5eaf9463309e4"
+    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",

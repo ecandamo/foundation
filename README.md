@@ -7,6 +7,7 @@ Esteban's starter template for all new projects.
 - TypeScript
 - Tailwind CSS
 - shadcn/ui (Radix + Nova preset)
+- Vitest + React Testing Library (testing)
 - Neon Postgres (when needed)
 - Vercel (deployment)
 
@@ -45,6 +46,15 @@ See `docs/design-system/` for the full design system reference — color/type to
 - `src/styles` — Reference tokens and shared style utilities only (live theme is in src/app/globals.css)
 - `public/` — Logos and brand assets (navy, green, white, blue variants + plus mark)
 - `docs/design-system/` — Design system reference: color/type tokens, component previews
+
+## Testing
+- `npm test` — run all tests once (unit/component tests via Vitest + React Testing Library)
+- `npm run test:watch` — run tests in watch mode while developing
+- CI runs lint, typecheck, tests, and build automatically on every push (see `.github/workflows/ci.yml`)
+
+## Environment Variables
+Copy `.env.example` to `.env.local` and fill in real values once the project needs
+auth or a database (the base template needs none). Never commit `.env.local`.
 
 ## Rules
 - TypeScript only, no JavaScript

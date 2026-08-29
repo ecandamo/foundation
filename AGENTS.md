@@ -12,6 +12,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - TypeScript (strict — never use JavaScript)
 - Tailwind CSS (all styling — no inline styles or CSS modules)
 - shadcn/ui (Radix + Nova preset)
+- Vitest + React Testing Library (unit/component tests — `npm test`)
 - Neon Postgres (when needed)
 - Vercel (deployment)
 

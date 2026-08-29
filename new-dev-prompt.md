@@ -24,6 +24,11 @@ Apply the impeccable skill from .agents/skills/ as a quality and compliance fram
 - Never use emoji as icons — use Lucide (already in the stack)
 - All touch targets minimum 44×44px, visible focus states, no color-only meaning
 
+## Housekeeping (do this first)
+- Update `src/app/layout.tsx` metadata — `title` and `description` still say the
+  template defaults ("App" / empty)
+- Update `package.json` `name` — still says "foundation"
+
 ## What to Build
 [DESCRIPTION]
 
