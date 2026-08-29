@@ -1,5 +1,11 @@
 Read AGENTS.md and CLAUDE.md for all project rules.
-Review .agents/skills/ for available skills.
+Skills are mirrored in three places for different tools — same content,
+different path: .claude/skills/ (Claude Code), .cursor/skills/ (Cursor),
+.agents/skills/ (everything else, e.g. Codex). If you're Claude Code, use
+your native Skill tool — it already lists what's available from
+.claude/skills/, don't read the folder manually. If you're Cursor or another
+agent without that native mechanism, read skill files directly from
+.cursor/skills/ or .agents/skills/ respectively.
 
 ## Design System
 The design system is already established in:
@@ -14,7 +20,7 @@ it. Current design is too generic — I want premium SaaS-level polish, clean
 typography hierarchy, intentional color usage, nothing generic or default looking.
 
 ## UX & Quality Standard
-Apply the impeccable skill from .agents/skills/ as a quality and compliance framework:
+Apply the impeccable skill (see the skills note above for how to invoke it on your tool) as a quality and compliance framework:
 - The design system above is the source of truth — impeccable's own DESIGN.md discovery is not needed here
 - Run `audit` for accessibility, performance, and responsive compliance as your minimum bar
 - Run `critique` for a UX heuristic review, and `polish` as a final quality pass before shipping
