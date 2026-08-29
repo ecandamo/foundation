@@ -97,23 +97,31 @@ export const designTokens = {
     semantic: {
       success: {
         bg:      '#E9F6EC',
+        border:  '#CBE8D2',
         DEFAULT: '#2E8F3E',
         foreground: '#FFFFFF',
+        foregroundSoft: '#1F6B2C',
       },
       warning: {
         bg:      '#FDF3E0',
+        border:  '#F5E0B4',
         DEFAULT: '#C47A0B',
         foreground: '#FFFFFF',
+        foregroundSoft: '#8F5508',
       },
       error: {
         bg:      '#FBECEB',
+        border:  '#F2C9C5',
         DEFAULT: '#C6342C',
         foreground: '#FFFFFF',
+        foregroundSoft: '#8F251E',
       },
       info: {
         bg:      '#EEF1F8',
+        border:  '#D3DBEC',
         DEFAULT: '#273B6E',
         foreground: '#FFFFFF',
+        foregroundSoft: '#1F3160',
       },
     },
 

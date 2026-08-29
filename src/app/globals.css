@@ -64,6 +64,20 @@
   --color-info: var(--info);
   --color-info-foreground: var(--info-foreground);
 
+  /* Soft/tint semantic variants — alerts, badges (light bg + colored text) */
+  --color-success-bg: var(--success-bg);
+  --color-success-border: var(--success-border);
+  --color-success-foreground-soft: var(--success-foreground-soft);
+  --color-warning-bg: var(--warning-bg);
+  --color-warning-border: var(--warning-border);
+  --color-warning-foreground-soft: var(--warning-foreground-soft);
+  --color-destructive-bg: var(--destructive-bg);
+  --color-destructive-border: var(--destructive-border);
+  --color-destructive-foreground-soft: var(--destructive-foreground-soft);
+  --color-info-bg: var(--info-bg);
+  --color-info-border: var(--info-border);
+  --color-info-foreground-soft: var(--info-foreground-soft);
+
   /* Shadows — navy-tinted elevation scale */
   --shadow-xs:        0 1px 2px 0 rgb(39 59 110 / 0.05);
   --shadow-sm:        0 1px 2px 0 rgb(39 59 110 / 0.06), 0 1px 3px 0 rgb(39 59 110 / 0.05);
@@ -179,6 +193,20 @@
   --info:               #273B6E;
   --info-foreground:    #FFFFFF;
 
+  /* ── Semantic status: soft variant (alerts, badges) ── */
+  --success-bg:               #E9F6EC;
+  --success-border:           #CBE8D2;
+  --success-foreground-soft:  #1F6B2C;
+  --warning-bg:               #FDF3E0;
+  --warning-border:           #F5E0B4;
+  --warning-foreground-soft:  #8F5508;
+  --destructive-bg:           #FBECEB;
+  --destructive-border:       #F2C9C5;
+  --destructive-foreground-soft: #8F251E;
+  --info-bg:                  #EEF1F8;
+  --info-border:              #D3DBEC;
+  --info-foreground-soft:     #1F3160;
+
   /* ── Typography ── */
   --font-sans:    'Mulish', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --font-heading: 'Mulish', ui-sans-serif, system-ui, sans-serif;
@@ -251,6 +279,20 @@
   --warning-foreground: #0B1428;
   --info:               #8592BE;
   --info-foreground:    #0B1428;
+
+  /* ── Semantic status: soft variant (alerts, badges) ── */
+  --success-bg:               color-mix(in oklab, var(--success) 18%, transparent);
+  --success-border:           color-mix(in oklab, var(--success) 36%, transparent);
+  --success-foreground-soft:  #8AC852;
+  --warning-bg:               color-mix(in oklab, var(--warning) 18%, transparent);
+  --warning-border:           color-mix(in oklab, var(--warning) 36%, transparent);
+  --warning-foreground-soft:  #E8A130;
+  --destructive-bg:           color-mix(in oklab, var(--destructive) 18%, transparent);
+  --destructive-border:       color-mix(in oklab, var(--destructive) 36%, transparent);
+  --destructive-foreground-soft: #E05A52;
+  --info-bg:                  color-mix(in oklab, var(--info) 18%, transparent);
+  --info-border:              color-mix(in oklab, var(--info) 36%, transparent);
+  --info-foreground-soft:     #8592BE;
 }
 
 @layer base {

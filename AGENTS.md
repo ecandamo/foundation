@@ -50,7 +50,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Secondary/Accent: Green `#78BC43` — operational, active, "go". Use sparingly: active nav markers, primary CTA inside navy surfaces, positive deltas, live-status pulses.
 - Surfaces: `#FFFFFF` cards, `#F7F8FB` page chrome, `#0B1428` sidebar and data heroes.
 - Ink neutrals (navy-tinted) for all supporting text and chrome. Never use generic slate or gray palettes.
-- No amber, teal, or purple — those are not API brand colors.
+- No amber, teal, or purple as brand/accent colors — those are not API brand colors. Amber is reserved for the warning semantic and chart-3 only.
 
 **Typography:**
 - Mulish — all UI and display text. Weights 400–800.
@@ -62,6 +62,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 **Backgrounds:** Flat. No gradients except navy→deeper-navy on IROPS/data hero surfaces. No photographic backgrounds in UI. No glassmorphism.
 
 **Cards:** Always 1px border `#E4E7EE` + radius `14px` + navy-tinted shadow. Never shadow-only — always border + shadow together. Shadow lifts on hover.
+
+**Soft alerts/badges:** Each semantic (success/warning/destructive/info) has a soft variant for callouts and status pills — light tint background + matching border + colored text, no solid fill. Use the `-bg`, `-border`, and `-foreground-soft` tokens (e.g. `--success-bg`, `--success-border`, `--success-foreground-soft`) — never hardcode these hex values. All soft-text colors are WCAG AA compliant (5.5:1+) against their paired background.
 
 **Shadows:** All navy-tinted (`rgb(39 59 110 / α)`). Five steps: xs (flat), sm (rest), md (hover), lg (menu), xl (modal).
 

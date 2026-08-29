@@ -23,9 +23,9 @@ Live design system lives in `src/app/globals.css` — edit there for style chang
 
 **Brand:** API Global Solutions — navy `#273B6E` + green `#78BC43`.
 **Fonts:** Mulish (UI), Questrial (docs), JetBrains Mono (data/code).
-**Logos:** `public/assets/` — navy, green, white, and blue variants + plus mark.
+**Logos:** `public/` — navy, green, white, and blue variants + plus mark.
 
-See `docs/design-system/` for the full design system reference, component previews, and UI kit.
+See `docs/design-system/` for the full design system reference — color/type tokens and component previews.
 
 ## Design Philosophy
 - Target aesthetic: operational SaaS polish — confident, data-dense, calm, navy-and-green
@@ -43,8 +43,8 @@ See `docs/design-system/` for the full design system reference, component previe
 - `src/hooks` — Custom React hooks
 - `src/types` — TypeScript type definitions
 - `src/styles` — Reference tokens and shared style utilities only (live theme is in src/app/globals.css)
-- `public/assets` — Logos and brand assets
-- `docs/design-system/` — Design system reference: color/type tokens, component previews, UI kit
+- `public/` — Logos and brand assets (navy, green, white, blue variants + plus mark)
+- `docs/design-system/` — Design system reference: color/type tokens, component previews
 
 ## Rules
 - TypeScript only, no JavaScript

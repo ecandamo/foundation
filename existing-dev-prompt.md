@@ -1,4 +1,4 @@
-Read AGENTS.md, CLAUDE.md, and GEMINI.md for all project rules.
+Read AGENTS.md and CLAUDE.md for all project rules.
 Review .agents/skills/ for available skills.
 
 ## Design System
@@ -14,11 +14,11 @@ it. Current design is too generic — I want premium SaaS-level polish, clean
 typography hierarchy, intentional color usage, nothing generic or default looking.
 
 ## UX & Quality Standard
-Apply the ui-ux-pro-max skill from .agents/skills/ as a quality and compliance framework:
-- Skip Step 2 (--design-system) — the design system above replaces it
-- Use §1 Accessibility, §2 Touch & Interaction, §3 Performance as your minimum bar
-- Apply §5 Layout & Responsive, §6 Typography & Color, §7 Animation, §8 Forms &
-  Feedback as needed per component
+Apply the impeccable skill from .agents/skills/ as a quality and compliance framework:
+- The design system above is the source of truth — impeccable's own DESIGN.md discovery is not needed here
+- Run `audit` for accessibility, performance, and responsive compliance as your minimum bar
+- Run `critique` for a UX heuristic review, and `polish` as a final quality pass before shipping
+- Apply `harden` (production-readiness: errors, i18n, edge cases) and `adapt` (device/screen coverage) as needed per component
 - Never use emoji as icons — use Lucide (already in the stack)
 - All touch targets minimum 44×44px, visible focus states, no color-only meaning
 
@@ -32,6 +32,6 @@ Generate a Design Audit covering:
 - What needs the most attention (typography, spacing, color usage)
 - Which screens/pages to tackle first
 - Specific changes recommended per component
-- Which ui-ux-pro-max rule categories are most relevant to this codebase
+- Which impeccable commands are most relevant to this codebase
 
 Wait for my approval before changing anything.
