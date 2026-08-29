@@ -37,6 +37,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Claude Code personal settings (permission approvals, local overrides) —
+# normally auto-excluded globally by Claude Code itself, but that only
+# fires if it hasn't already been created by hand. Explicit here so a
+# template clone never accidentally commits one contributor's personal
+# approvals. .claude/settings.json (the shared one) stays tracked.
+.claude/settings.local.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
